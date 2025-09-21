@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Intro</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="off-canvas-wrapper">
+      <!-- Your menu or Off-canvas content goes here -->
+      <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <!-- Close button -->
+        <button
+          class="close-button"
+          aria-label="Close menu"
+          type="button"
+          data-close
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Menu -->
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Sites</a></li>
+        </ul>
+      </div>
+      <!-- Your page content lives here -->
+      <div class="off-canvas-content" data-off-canvas-content>
+        <!-- main content within a `grid-container` -->
+        <div class="grid-container">
+          <!-- `grid-x` represents a row -->
+          <div class="grid-x grid-padding-x">
+            <div
+              class="cell small-12 large-12"
+              style="background-color: #add8e6"
+            >
+              <div class="topnav">
+                <a href="index.html">Home</a>
+                            <a href="resume.html">Resume</a>
+                            <a href="projects.html">Projects</a>
+                            <a href="personal.html">Personal</a>
+              </div>
+            </div>
+            <div
+              class="cell small-12 large-12"
+              style="background-color: #90ee90"
+            >
+              <img class="headshot" src="Cropped-Headshot (1).png" />
+              <h1>Resume</h1>
+            </div>
+            <div class="cell small-0 large-2" style="background-color: #add8e6">
+              <div class="sidenav">
+                <a href="#Home">Education</a>
+                <a href="#Resume">Work Experience</a>
+                <a href="#Projects">Technical Skills/ Tools</a>
+                <!-- can add grid of skills here -->
+                <a href="#Personal">Personal</a>
+              </div>
+            </div>
+            <div class="cell small-8 large-10">
+              <div class="resume-header">
+                <p>Upcoming Software Engineer @ Best Buy</p>
+                <p>
+                  St. Paul, MN and Phoenix, AZ | P: +1 602-708-9625 |
+                  azkaykos@gmail.com
+                </p>
+                <p>Connect with me on LinkedIn!</p>
+              </div>
+              <div class="cell large-12 small-12">
+                <hr class="section-divider" />
+              </div>
+              <div class="edu-section">
+                <a href="https://www.stthomas.edu/academics/undergraduate/computer-science-major-and-minor/">St. Catherine University ACTC through University of St. Thomas</a>
+                <p>B.A. in Computer Science - December 2025</p>
+              </div>
+              <div class="cell large-12 small-12">
+                <hr class="section-divider" />
+              </div>
+              <div class="work-section">
+                <p>Software Engineer Intern</p>
+                <p1>Best Buy</p1>
+                <ul>
+                    <li>Developed a responsive frontend with TypeScript and React, and a backend with Express (JavaScript) that called multiple AWS-hosted API endpoints to retrieve and consolidate large-scale pricing data onto a dynamic table.</li>
+                    <li>Tested and validated API endpoints using Postman, Insomnia, and Swagger UI to ensure accurate, secure, and efficient data transfers.</li>
+                    <li>Used GitHub for version control, code reviews, build work flows, and pull requests to maintain high code quality and traceability.</li>
+                    <li>Deployed and tested features in lower environments, verifying functionality and performance before releasing to production.</li>
+                    <li>Authored and executed a detailed testing plan, ensuring the system could handle large volumes of data accurately and reliably in production.</li>
+                </ul>
+                <p>Software Engineer Intern</p>
+                <p1>Girls Dream Code</p1>
+                <ul>
+                    <li>Developed and launched a secure mobile app for the Girls Dream Code community, now live on the Apple App Store.</li>
+                <li>Created the frontend in Draftbit with custom JavaScript/React Native code; integrated a Xano backend via APIs.</li>
+                <li>Used SendGrid to implement user authentication and safeguard access for verified community members.</li>
+                <li>Worked in an Agile environment, ensuring timely, high-quality releases based on user feedback.</li>
+                </ul>
+                <p>IT Helpdesk</p>
+                <p1>St. Catherine University</p1>
+                <ul>
+                    <li>Conduct audits and manage inventory for 400+ assets, using Excel for precise data entry, tracking, and analysis.</li>
+                <li>Document processes and analyze technical data in MS Office and Excel to enhance service delivery and efficiency.</li>
+            <li>Troubleshoot and resolve client hardware and software issues through Windows 10/11 and ServiceNow.</li>
+                <li>Maintain and update a 1,000+ article knowledge base, applying technical documentation skills to ensure accuracy.</li>    
+            </ul>
+            <p>Web Development Intern</p>
+                <p1>St. Catherine University</p1>
+                <ul>
+                    <li>Updated and maintained the university's homepage using Drupal, ensuring content was current and accessible. </li>
+                <li>Designed and developed customizable cards for the Ellucian Experience, enhancing the user interface of the new student and faculty portal now live on the university website using HTML, CSS, and JavaScript. </li>
+                <li>Demoed the test product to students, faculty, and staff, gathering feedback and ensuring alignment with user needs and expectations.</li>
+                <li>Tested the product, identifying and troubleshooting issues to ensure a smooth user experience before the official launch.</li>
+                </ul>
+              </div>
+              <div class="cell large-12 small-12">
+                <hr class="section-divider" />
+              </div>
+              <div class="skills-section">
+                <p>Technical Skills/Tools</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-x grid-padding-x">
+            <div class="cell large-6 small-6" style="background-color: #add8e6">
+              <h1>About Me</h1>
+            </div>
+            <div class="cell large-6 small-6" style="background-color: #add8e6">
+              <p>Info about me..</p>
+            </div>
+            <!-- after this have four boxes with hove that show projects.. resume.. etc -->
+            <div class="cell large-auto" style="background-color: #90ee90">
+              Two
+            </div>
+            <div class="cell large-auto" style="background-color: #add8e6">
+              Three
+            </div>
+            <div class="cell large-auto" style="background-color: #90ee90">
+              Four
+            </div>
+            <div class="cell large-auto" style="background-color: #add8e6">
+              Five
+            </div>
+          </div>
+
+          <div class="grid-x grid-padding-x">
+            <button
+              type="button"
+              class="cell large-auto button"
+              data-toggle="offCanvas"
+            >
+              Open Menu
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+      $(document).foundation();
+    </script>
+  </body>
+</html>

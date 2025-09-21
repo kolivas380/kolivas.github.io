@@ -25,3 +25,35 @@
     width: 50%;
     height: 50 vh;
 }
+
+.sidenav a {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sidenav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.resume-header {
+  align-content: center;
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+    width: 50%;
+    height: 50 vh;
+}
+
+.section-divider {
+  border: none; /* Remove default border */
+  border-top: 1px solid #ccc; /* Create a 1px solid grey line */
+  margin: 20px 0; /* Add some vertical spacing */
+}
