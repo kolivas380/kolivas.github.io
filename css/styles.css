@@ -18,11 +18,11 @@
 }
 
 .headshot {
-    align-content: center;
+    /* align-content: left;
     text-align: center;
     display: block; 
     margin: 0 auto;
-    width: 50%;
+    width: 50%; */
     height: 50 vh;
 }
 
@@ -56,4 +56,9 @@
   border: none; /* Remove default border */
   border-top: 1px solid #ccc; /* Create a 1px solid grey line */
   margin: 20px 0; /* Add some vertical spacing */
+}
+
+body {
+  background-color: #A5B1BF;
+  
 }
