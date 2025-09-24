@@ -1,12 +1,17 @@
 .topnav a {
-  width: 800px; /* Example fixed width */
-  margin: 0 auto;
-  /* text-align: center; */
+  width: 800px;
+  /* margin: 0 auto; */
+  text-align: center;
   padding: 20px 64px;
   text-decoration: none;
   font-size: 17px;
 }
 
+.topnav {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;
+}
 .topnav a.active {
   background-color: #04aa6d;
   color: white;
@@ -18,12 +23,16 @@
 }
 
 .headshot {
-    /* align-content: left;
-    text-align: center;
-    display: block; 
-    margin: 0 auto;
-    width: 50%; */
-    height: 50 vh;
+  align-content: left;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  /* width: 50%; */
+  /* height: 50 vh; */
+  width: 400px; /* Sets a fixed width */
+  height: auto;
+  /* margin: 100px; */
+  margin-top: 20%;
 }
 
 .sidenav a {
@@ -45,11 +54,11 @@
 
 .resume-header {
   align-content: center;
-    text-align: center;
-    display: block; 
-    margin: 0 auto;
-    width: 50%;
-    height: 50 vh;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50 vh;
 }
 
 .section-divider {
@@ -59,45 +68,34 @@
 }
 
 body {
-  background-color: #A5B1BF;
+  background-color: #eee6f7;
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
 
-.headertext h1{
+/* .headertext h1{
     align-content: left;
     text-align: center;
     display: block; 
     margin: 0 auto;
     width: 50%;
     margin-top: -30px;
-}
+} */
 
-.descriptiontext p{
-    align-content: left;
-    text-align: center;
-    display: block; 
-    margin: 0 auto;
-    width: 50%;
-   
+.descriptiontext p {
+  align-content: left;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .grid-container {
   max-width: 100rem;
   margin-left: auto;
   margin-right: auto;
-}
-
-.resume-container {
-  padding-right: 10.00rem;
-  padding-left: 10.00rem;
-  background-color: white;
-  border:100px black;
-  /* border-color: black;
-  border-width: 10em; */
-
 }
 
 body p {
@@ -107,4 +105,44 @@ body p {
   font-style: normal;
 }
 
+.my-custom-border {
+  margin-top: 5000px;
+  align-items: center;
+  align-content: center;
+  display: block;
+  margin: 200px auto;
+  background-color: white;
+  width: 80%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid #d6d0d0; /* 2px solid border with a dark gray color */
+  border-radius: 20px; /* Optional: adds rounded corners */
+  padding: 1rem; /* Optional: adds internal spacing so content doesn't touch the border */
+}
 
+.about-box {
+  background-color: white;
+  margin-top: 100px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid #d6d0d0; /* 2px solid border with a dark gray color */
+  border-radius: 20px; /* Optional: adds rounded corners */
+  position: relative;
+  width: 100vh;
+
+  padding: 5rem 5rem; /* Optional: adds internal spacing so content doesn't touch the border */
+}
+
+.name {
+  align-content: center;
+
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  /* height: 50 vh; */
+}
+
+.right-side {
+  background-color: #eee6f7;
+  height: 100vh;
+  max-width: 100rem;
+}
