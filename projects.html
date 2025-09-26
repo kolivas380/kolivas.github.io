@@ -1,102 +1,111 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Foundation Intro</title>
-	<link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Intro</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <div class="off-canvas-wrapper">
-        <!-- Your menu or Off-canvas content goes here -->
-        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-            <!-- Close button -->
-            <button class="close-button" aria-label="Close menu" type="button" data-close>
-                <span aria-hidden="true">&times;</span>
-            </button>
+      <!-- Your menu or Off-canvas content goes here -->
+      <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <!-- Close button -->
+        <button
+          class="close-button"
+          aria-label="Close menu"
+          type="button"
+          data-close
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
 
-            <!-- Menu -->
-            <ul class="vertical menu">
-                <li><a href="#">Foundation</a></li>
-                <li><a href="#">Dot</a></li>
-                <li><a href="#">ZURB</a></li>
-                <li><a href="#">Com</a></li>
-                <li><a href="#">Slash</a></li>
-                <li><a href="#">Sites</a></li>
-            </ul>
-        </div>
-        <!-- Your page content lives here -->
-        <div class="off-canvas-content" data-off-canvas-content>
-            <!-- main content within a `grid-container` -->
-            <div class="grid-container">
-                <!-- `grid-x` represents a row -->
-                <div class="grid-x grid-padding-x">
-                    <div class="cell small-12 large-12" style="background-color: #ADD8E6;">
-                        <div class="topnav">
-                            <a href="index.html">Home</a>
-                            <a href="resume.html">Resume</a>
-                            <a href="projects.html">Projects</a>
-                            <a href="personal.html">Personal</a>
-                        </div>
-                    </div>
-                    <div class="cell small-12 large-12" style="background-color: #90EE90;">
-                        <img class="headshot" src="Cropped-Headshot (1).png">
-                        <div class = "headertext">
-                            <h1>Projects</h1>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <div class="cell large-6 small-6" style="background-color: #ADD8E6;">
-                        <img src="bestBuyLogo.webp" alt="Best Buy Logo">
-                    </div>
-                    <div class="cell large-6 small-6" style="background-color: #ADD8E6;">
-                        <h1>Price Validator</h1>
-                        <p>During my summer internship with Best Buy, I had a chance to create a tool that
-                            would be helpful in confirming and ensuring the accuracy of prices across
-                            the different applications that stored the prices that you see on the Best Buy
-                            website and stores.
-                        </p>
-                        <p>Tech Stack: Typescript, Node.js, React</p>
-                    </div> 
-                    <div class="cell large-12 small-12">
-                <hr class="section-divider" />
+        <!-- Menu -->
+        <ul class="vertical menu">
+          <li><a href="#">Foundation</a></li>
+          <li><a href="#">Dot</a></li>
+          <li><a href="#">ZURB</a></li>
+          <li><a href="#">Com</a></li>
+          <li><a href="#">Slash</a></li>
+          <li><a href="#">Sites</a></li>
+        </ul>
+      </div>
+      <!-- Your page content lives here -->
+      <div class="off-canvas-content" data-off-canvas-content>
+        <!-- main content within a `grid-container` -->
+        <div class="grid-container">
+          <!-- `grid-x` represents a row -->
+          <div class="grid-x grid-padding-x">
+            <div
+              class="cell small-12 large-12" style="background-color: white">
+              <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+                <a href="personal.html">Personal</a>
               </div>
-              <div class="cell large-6 small-6" style="background-color: #ADD8E6;">
-                        <img src="americanFlag.jpg" alt="Amerian Flag">
-                    </div>
-                    <div class="cell large-6 small-6" style="background-color: #ADD8E6;">
-                        <h1>Code-Sync Mobile App</h1>
-                        <p>During my internship with Girls Dream Code, I helped create their first mobile-app called Code-Sync.
-                            This app is was built by members of Girls Dream Code for those inside the organization. It is a tool
-                            used to build a stronger community within the organzation while providing valuable experience to those
-                            picking up parts of the development process. 
-                        </p>
-                    </div> 
-                     <div class="cell large-12 small-12">
-                <hr class="section-divider" />
-              </div>
-                    <div class="cell large-6 small-6" style="background-color: #ADD8E6;">
-                        <img src="americanFlag.jpg" alt="Amerian Flag">
-                    </div>
-                    <div class="cell large-6 small-6" style="background-color: #ADD8E6;">
-                        <h1>Detecting fake news through machine learning</h1>
-                        <p>Sentiment Analysis to detect Fake or Real News during the 2016 Election </p>
-                    </div> 
-                    <!-- after this have four boxes with hove that show projects.. resume.. etc -->
-                    <div class="cell large-auto" style="background-color: #90EE90;">Two</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Three</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Four</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Five</div>
-                </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
-                </div>
             </div>
+            <div
+              class="cell small-12 large-12" style="background-color: #90ee90">
+              <!-- <img class="headshot" src="Cropped-Headshot (1).png" /> -->
+              <div class="headertext">
+                <h1>Projects</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-x grid-padding-x">
+            <div class="cell large-6 small-6">
+              <img src="bestBuyLogo.webp" alt="Best Buy Logo" />
+            </div>
+            <div class="cell large-6 small-6 about-box">
+              <h1>Price Validator</h1>
+              <p>
+                During my summer internship with Best Buy, I had a chance to
+                create a tool that would be helpful in confirming and ensuring
+                the accuracy of prices across the different applications that
+                stored the prices that you see on the Best Buy website and
+                stores.
+              </p>
+              <p>Tech Stack: Typescript, Node.js, React</p>
+            </div>
+            <div
+              class="cell large-12 small-12"
+              
+            >
+              <hr class="section-divider" />
+            </div>
+            <div class="cell large-6 small-6">
+              <img src="americanFlag.jpg" alt="Amerian Flag" />
+            </div>
+            <div class="cell large-6 small-6 about-box">
+              <h1>Code-Sync Mobile App</h1>
+              <p>
+                During my internship with Girls Dream Code, I helped create
+                their first mobile-app called Code-Sync. This app is was built
+                by members of Girls Dream Code for those inside the
+                organization. It is a tool used to build a stronger community
+                within the organzation while providing valuable experience to
+                those picking up parts of the development process.
+              </p>
+            </div>
+            <div class="cell large-12 small-12">
+              <hr class="section-divider" />
+            </div>
+            <div class="cell large-6 small-6">
+              <img src="americanFlag.jpg" alt="Amerian Flag" />
+            </div>
+            <div class="cell large-6 small-6 about-box">
+              <h1>Detecting fake news through machine learning</h1>
+              <p>
+                Sentiment Analysis to detect Fake or Real News during the 2016
+                Election
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- include before closing <body> tag -->
@@ -104,7 +113,7 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script type="application/javascript">
-        $(document).foundation();
+      $(document).foundation();
     </script>
-</body>
+  </body>
 </html>

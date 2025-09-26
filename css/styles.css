@@ -2,9 +2,9 @@
   width: 800px;
   /* margin: 0 auto; */
   text-align: center;
-  padding: 20px 64px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
+  color: #8a8888;
 }
 
 .topnav {
@@ -29,10 +29,11 @@
   margin: 0 auto;
   /* width: 50%; */
   /* height: 50 vh; */
-  width: 400px; /* Sets a fixed width */
-  height: auto;
+  /* width: 400px; /* Sets a fixed width */
+  height: 100vh;
+  width: 100000000px;
   /* margin: 100px; */
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .sidenav a {
@@ -68,7 +69,7 @@
 }
 
 body {
-  background-color: #eee6f7;
+  background-color: #e6d3f5;
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -105,6 +106,13 @@ body p {
   font-style: normal;
 }
 
+body h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .my-custom-border {
   margin-top: 5000px;
   align-items: center;
@@ -127,7 +135,6 @@ body p {
   border-radius: 20px; /* Optional: adds rounded corners */
   position: relative;
   width: 100vh;
-
   padding: 5rem 5rem; /* Optional: adds internal spacing so content doesn't touch the border */
 }
 
@@ -141,8 +148,8 @@ body p {
   /* height: 50 vh; */
 }
 
-.right-side {
+/* .right-side {
   background-color: #eee6f7;
   height: 100vh;
   max-width: 100rem;
-}
+} */
