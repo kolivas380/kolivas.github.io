@@ -94,16 +94,25 @@
 .edu-section p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1.3rem;
+  align-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .skills-section p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1rem;
+  
 }
 
 .edu-section a {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1.3rem;
+  align-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .resume-header h1 {
@@ -168,6 +177,56 @@ body {
   max-width: 100rem;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 0;
+   padding-right: 0;
+}
+
+/* center containers on small screens */
+@media (max-width: 640px) {
+  .grid-container,
+  .grid-container.fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .grid-padding-x > .cell {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .project-box,
+  .personal-card,
+  .resume-border {
+    align-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+    max-width: 90% !important;
+    margin-top: 1rem;
+   
+    box-sizing: border-box;
+    padding-left: 1rem;  
+    padding-right: 1rem;  
+  }
+  
+  .personal-header h1{
+    align-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+    max-width: 100% !important;
+   
+    padding-left: 1rem; 
+    padding-right: 1rem;  
+  }
+
+  .project-row,
+  .projects-portion,
+  .first-row,
+  .second-row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
 body p {
@@ -218,7 +277,14 @@ body h2 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border: 2px solid #d6d0d0;
   border-radius: 20px;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem
+}
+
+.about-box p {
+  align-content: center;
+  text-align: center;
+  display: block;
   padding: 1rem;
 }
 
@@ -226,7 +292,7 @@ body h2 {
   align-content: center;
   text-align: center;
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .name {
