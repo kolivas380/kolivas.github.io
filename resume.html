@@ -12,90 +12,85 @@
   </head>
   <body>
     <div class="off-canvas-wrapper">
-      <!-- Your menu or Off-canvas content goes here -->
-      <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-        <!-- Close button -->
-        <button
-          class="close-button"
-          aria-label="Close menu"
-          type="button"
-          data-close
-        >
-          <span aria-hidden="true">&times;</span>
-        </button>
-
-        <!-- Menu -->
-        <ul class="vertical menu">
-          <li><a href="#">Foundation</a></li>
-          <li><a href="#">Dot</a></li>
-          <li><a href="#">ZURB</a></li>
-          <li><a href="#">Com</a></li>
-          <li><a href="#">Slash</a></li>
-          <li><a href="#">Sites</a></li>
-        </ul>
-      </div>
+ 
       <!-- Your page content lives here -->
-      <div class="off-canvas-content" data-off-canvas-content>
+     <div class="off-canvas-content" data-off-canvas-content>
         <!-- main content within a `grid-container` -->
         <div class="grid-container fluid">
           <!-- `grid-x` represents a row -->
           <div class="grid-x grid-padding-x">
-            <div
-              class="cell small-12 large-12"
-              style="background-color: white"
-            >
-              <div class="topnav">
-                <a href="index.html">Home</a>
-                <a href="resume.html">Resume</a>
-                <a href="projects.html">Projects</a>
-                <a href="personal.html">Personal</a>
-              </div>
-            </div>
+              <!-- Top nav bar -->
+      <div class="cell small-12 large-12" style="background-color: white">
+
+        <!-- Large screens: full nav -->
+        <div class="topnav show-for-large">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="projects.html">Projects</a>
+          <a href="personal.html">Personal</a>
+        </div>
+
+       <!-- hamburger + dropdown -->
+<div class="title-bar hide-for-large" data-responsive-toggle="mobile-menu" data-hide-for="large">
+  <button class="hamburger-menu" type="button" data-toggle="mobile-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </button>
+</div>
+
+  <!-- Mobile dropdown menu  -->
+  <div id="mobile-menu" class="top-bar hide-for-large">
+    <div class="top-bar-right">
+      <ul class="vertical menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="personal.html">Personal</a></li>
+      </ul>
+    </div>
+  </div>
             <!-- Personal intro -->
             <div class="cell small-12 large-12 personal-header" style="background-color: white;">
-              <div class="name">
+              
                 <h1>Resume</h1>
-              </div>
+              
+            </div>
             </div>
           </div>
           <div class="resume-container">
-            <!-- <div class="cell small-0 large-2" style="background-color: #add8e6">
-              <div class="sidenav">
-                <a href="#Home">Education</a>
-                <a href="#Resume">Work Experience</a>
-                <a href="#Projects">Technical Skills/ Tools</a> -->
-                <!-- can add grid of skills here -->
-                <!-- <a href="#Personal">Personal</a>
-              </div>
-            </div> -->
+           
             <div class="cell small-8 large-10 resume-container">
-              <div class="my-custom-border">
+              <div class="resume-border">
                 <div class="resume-header">
-                  <p style="font-size: 2.0rem; font-weight: bold;">Kayla Olivas</p>
+                  <h1 style="font-weight: bold;">Kayla Olivas</h1>
                 <p>Upcoming Software Engineer @ Best Buy</p>
                 <p>
                   St. Paul, MN and Phoenix, AZ | P: +1 602-708-9625 |
                   azkaykos@gmail.com
                 </p>
-                <p>Connect with me on LinkedIn!</p>
+                <a href="https://www.linkedin.com/in/kayla-olivas-9186022a6/">Connect with me on LinkedIn!</a>
               </div>
               <div class="cell large-12 small-12">
                 <hr class="section-divider" />
               </div>
               <div class="edu-section">
+                <h1>Education</h1>
                 <a
-                  href="https://www.stthomas.edu/academics/undergraduate/computer-science-major-and-minor/"
-                  >St. Catherine University ACTC through University of St.
-                  Thomas</a
+                  href="https://www.stkate.edu/"
+                  >Saint Catherine University
+                 </a
                 >
-                <p>B.A. in Computer Science - December 2025</p>
+                <p>Bachelor of Arts in Computer Science - December 2025</p>
               </div>
               <div class="cell large-12 small-12">
                 <hr class="section-divider" />
               </div>
               <div class="work-section">
-                <p  style="font-weight: bolder;">Software Engineer Intern</p>
-                <p1>Best Buy</p1>
+                <h1>Work Experience</h1>
+                <p style="font-weight: bolder;">Software Engineer Intern</p>
+                <p><i>Best Buy</i></p>
+                <p>June 2025 - Present</p>
                 <ul>
                   <li>
                     Developed a responsive frontend with TypeScript and React,
@@ -125,7 +120,8 @@
                   </li>
                 </ul>
                 <p  style="font-weight: bolder;">Software Engineer Intern</p>
-                <p1>Girls Dream Code</p1>
+                <p><i>Girls Dream Code</i></p>
+                <p>June 2025 - Present</p>
                 <ul>
                   <li>
                     Developed and launched a secure mobile app for the Girls
@@ -146,7 +142,8 @@
                   </li>
                 </ul>
                 <p  style="font-weight: bold;">IT Helpdesk</p>
-                <p1>St. Catherine University</p1>
+                <p><i>St. Catherine University</i></p>
+                <p>June 2025 - Present</p>
                 <ul>
                   <li>
                     Conduct audits and manage inventory for 400+ assets, using
@@ -166,7 +163,8 @@
                   </li>
                 </ul>
                 <p style="font-weight: bold;">Web Development Intern</p>
-                <p1>St. Catherine University</p1>
+                <p><i>St. Catherine University</i></p>
+                <p>June 2025 - Present</p>
                 <ul>
                   <li>
                     Updated and maintained the university's homepage using
@@ -194,45 +192,13 @@
                 <hr class="section-divider" />
               </div>
               <div class="skills-section">
-                <p>Technical Skills/Tools</p>
+                <p><strong>Technical Skills/Tools</strong> Coding Languages: Python, Java, HTML/CSS, JavaScript, React Native, C, SQL, Typescript, React
+Tools: Xano, Ionic Framework, MS Office, Figma, Linux Commands, ServiceNow, GitHub, Active Directory, Click Up, Kanban, Visual Studio Code, Jira  
+</p>
               </div>
             </div>
-              </div>
-              
-          </div>
-
-          <!-- <div class="grid-x grid-padding-x">
-            <div class="cell large-6 small-6" style="background-color: #add8e6">
-              <h1>About Me</h1>
-            </div>
-            <div class="cell large-6 small-6" style="background-color: #add8e6">
-              <p>Info about me..</p>
-            </div> -->
-            <!-- after this have four boxes with hove that show projects.. resume.. etc -->
-            <!-- <div class="cell large-auto" style="background-color: #90ee90">
-              Two
-            </div>
-            <div class="cell large-auto" style="background-color: #add8e6">
-              Three
-            </div>
-            <div class="cell large-auto" style="background-color: #90ee90">
-              Four
-            </div>
-            <div class="cell large-auto" style="background-color: #add8e6">
-              Five
-            </div>
-          </div>
-
-          <div class="grid-x grid-padding-x">
-            <button
-              type="button"
-              class="cell large-auto button"
-              data-toggle="offCanvas"
-            >
-              Open Menu
-            </button>
-          </div>
-        </div> -->
+              </div>  
+        
       </div>
     </div>
 
