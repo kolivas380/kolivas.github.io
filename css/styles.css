@@ -44,7 +44,7 @@
  #name-header {
   margin-top: 50%;
   color: black;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: bolder;
   margin-left: -40%;
 }
@@ -84,8 +84,9 @@
 .section-divider {
   border: none; /* Remove default border */
   border-top: 1px solid #ccc; /* Create a 1px solid grey line */
-  margin: 20px 0; /* Add some vertical spacing */
-
+  margin: 20px ; /* Add some vertical spacing */
+  align-content: center;
+  max-width: 100%;
 }
 
 body {
@@ -182,7 +183,7 @@ body h1 {
   /* display: block;
   margin: 0 auto;
   width: 50%; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* height: 50 vh; */
 }
 
@@ -285,4 +286,62 @@ body h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
+  
+}
+
+.project-image {
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+.code-sync-image {
+  max-width: 48%;
+  margin: 0 auto;
+  margin-left: 47px;
+  align-content: center;
+  background-color: white;
+}
+
+.project-image img,
+.code-sync-image img
+ {
+  display: block;
+  margin: 0 auto;         /* centers horizontally */
+  max-height: 100%;        /* responsive sizing */
+  height: 500px;          /* pick a consistent height */
+  object-fit: contain;    /* or "cover" if you want full fill */
+}
+
+.flag-image img{
+  margin-left: 32px
+}
+
+.project-box {
+  
+  background-color: white;
+  margin: 0 auto;
+  align-content: center;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid #d6d0d0; /* 2px solid border with a dark gray color */
+  border-radius: 20px; /* Optional: adds rounded corners */
+  padding: 1rem; /* Optional: adds internal spacing so content doesn't touch the border */
+}
+
+.project-box1 {
+  margin-left: 200px;
+  background-color: white;
+  margin: 0 auto;
+  align-content: center;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid #d6d0d0; /* 2px solid border with a dark gray color */
+  border-radius: 20px; /* Optional: adds rounded corners */
+  padding: 1rem; /* Optional: adds internal spacing so content doesn't touch the border */
+}
+
+.projects-portion {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
