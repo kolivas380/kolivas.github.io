@@ -6,199 +6,215 @@
     <title>Kayla O. | Software Engineer</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="off-canvas-wrapper">
- 
-      <!-- Your page content lives here -->
-     <div class="off-canvas-content" data-off-canvas-content>
-        <!-- main content within a `grid-container` -->
+      <div class="off-canvas-content" data-off-canvas-content>
         <div class="grid-container fluid">
-          <!-- `grid-x` represents a row -->
+          <!-- Top nav -->
           <div class="grid-x grid-padding-x">
-              <!-- Top nav bar -->
-      <div class="cell small-12 large-12" style="background-color: white">
+            <div class="cell small-12 large-12" style="background-color: white">
+              <div class="topnav show-for-large">
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+                <a href="personal.html">Personal</a>
+              </div>
 
-        <!-- Large screens: full nav -->
-        <div class="topnav show-for-large">
-          <a href="index.html">Home</a>
-          <a href="resume.html">Resume</a>
-          <a href="projects.html">Projects</a>
-          <a href="personal.html">Personal</a>
-        </div>
+              <div
+                class="title-bar hide-for-large"
+                data-responsive-toggle="mobile-menu"
+                data-hide-for="large"
+              >
+                <button
+                  class="hamburger-menu"
+                  type="button"
+                  data-toggle="mobile-menu"
+                >
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </button>
+              </div>
 
-       <!-- hamburger + dropdown -->
-<div class="title-bar hide-for-large" data-responsive-toggle="mobile-menu" data-hide-for="large">
-  <button class="hamburger-menu" type="button" data-toggle="mobile-menu">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-  </button>
-</div>
+              <div id="mobile-menu" class="top-bar hide-for-large">
+                <div class="top-bar-right">
+                  <ul class="vertical menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="personal.html">Personal</a></li>
+                  </ul>
+                </div>
+              </div>
 
-  <!-- Mobile dropdown menu  -->
-  <div id="mobile-menu" class="top-bar hide-for-large">
-    <div class="top-bar-right">
-      <ul class="vertical menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="personal.html">Personal</a></li>
-      </ul>
-    </div>
-  </div>
-            <!-- Personal intro -->
-            <div class="cell small-12 large-12 personal-header" style="background-color: white;">
-              
+              <div
+                class="cell small-12 large-12 personal-header"
+                style="background-color: white"
+              >
                 <h1>Resume</h1>
-              
-            </div>
+              </div>
             </div>
           </div>
-          <div class="resume-container">
-           
-            <div class="cell small-8 large-10 resume-container">
+
+          <!-- Resume -->
+          <div class="grid-x grid-padding-x">
+            <div class="cell small-12 large-10 resume-container">
               <div class="resume-border">
                 <div class="resume-header">
-                  <h1 style="font-weight: bold;">Kayla Olivas</h1>
-                <p>Upcoming Software Engineer @ Best Buy</p>
-                <p>
-                  St. Paul, MN and Phoenix, AZ | P: +1 602-708-9625 |
-                  azkaykos@gmail.com
-                </p>
-                <a href="https://www.linkedin.com/in/kayla-olivas-9186022a6/" target="_blank">Connect with me on LinkedIn!</a>
-              </div>
-              <div class="cell large-12 small-12">
-                <hr class="section-divider" />
-              </div>
-              <div class="edu-section">
-                <h1>Education</h1>
-                <a
-                  href="https://www.stkate.edu/"
-                  target="_blank">Saint Catherine University
-                 </a
-                >
-                <p>Bachelor of Arts in Computer Science - December 2025</p>
-              </div>
-              <div class="cell large-12 small-12">
-                <hr class="section-divider" />
-              </div>
-              <div class="work-section">
-                <h1>Work Experience</h1>
-                <p style="font-weight: bolder;">Software Engineer Intern</p>
-                <p><i>Best Buy</i></p>
-                <p>June 2025 - Present</p>
-                <ul>
-                  <li>
-                    Developed a responsive frontend with TypeScript and React,
-                    and a backend with Express (JavaScript) that called multiple
-                    AWS-hosted API endpoints to retrieve and consolidate
-                    large-scale pricing data onto a dynamic table.
-                  </li>
-                  <li>
-                    Tested and validated API endpoints using Postman, Insomnia,
-                    and Swagger UI to ensure accurate, secure, and efficient
-                    data transfers.
-                  </li>
-                  <li>
-                    Used GitHub for version control, code reviews, build work
-                    flows, and pull requests to maintain high code quality and
-                    traceability.
-                  </li>
-                  <li>
-                    Deployed and tested features in lower environments,
-                    verifying functionality and performance before releasing to
-                    production.
-                  </li>
-                  <li>
-                    Authored and executed a detailed testing plan, ensuring the
-                    system could handle large volumes of data accurately and
-                    reliably in production.
-                  </li>
-                </ul>
-                <p  style="font-weight: bolder;">Software Engineer Intern</p>
-                <p><i>Girls Dream Code</i></p>
-                <p>June 2025 - Present</p>
-                <ul>
-                  <li>
-                    Developed and launched a secure mobile app for the Girls
-                    Dream Code community, now live on the Apple App Store.
-                  </li>
-                  <li>
-                    Created the frontend in Draftbit with custom
-                    JavaScript/React Native code; integrated a Xano backend via
-                    APIs.
-                  </li>
-                  <li>
-                    Used SendGrid to implement user authentication and safeguard
-                    access for verified community members.
-                  </li>
-                  <li>
-                    Worked in an Agile environment, ensuring timely,
-                    high-quality releases based on user feedback.
-                  </li>
-                </ul>
-                <p  style="font-weight: bold;">IT Helpdesk</p>
-                <p><i>St. Catherine University</i></p>
-                <p>June 2025 - Present</p>
-                <ul>
-                  <li>
-                    Conduct audits and manage inventory for 400+ assets, using
-                    Excel for precise data entry, tracking, and analysis.
-                  </li>
-                  <li>
-                    Document processes and analyze technical data in MS Office
-                    and Excel to enhance service delivery and efficiency.
-                  </li>
-                  <li>
-                    Troubleshoot and resolve client hardware and software issues
-                    through Windows 10/11 and ServiceNow.
-                  </li>
-                  <li>
-                    Maintain and update a 1,000+ article knowledge base,
-                    applying technical documentation skills to ensure accuracy.
-                  </li>
-                </ul>
-                <p style="font-weight: bold;">Web Development Intern</p>
-                <p><i>St. Catherine University</i></p>
-                <p>June 2025 - Present</p>
-                <ul>
-                  <li>
-                    Updated and maintained the university's homepage using
-                    Drupal, ensuring content was current and accessible.
-                  </li>
-                  <li>
-                    Designed and developed customizable cards for the Ellucian
-                    Experience, enhancing the user interface of the new student
-                    and faculty portal now live on the university website using
-                    HTML, CSS, and JavaScript.
-                  </li>
-                  <li>
-                    Demoed the test product to students, faculty, and staff,
-                    gathering feedback and ensuring alignment with user needs
-                    and expectations.
-                  </li>
-                  <li>
-                    Tested the product, identifying and troubleshooting issues
-                    to ensure a smooth user experience before the official
-                    launch.
-                  </li>
-                </ul>
-              </div>
-              <div class="cell large-12 small-12">
-                <hr class="section-divider" />
-              </div>
-              <div class="skills-section">
-                <p><strong>Technical Skills/Tools</strong> Coding Languages: Python, Java, HTML/CSS, JavaScript, React Native, C, SQL, Typescript, React
-Tools: Xano, Ionic Framework, MS Office, Figma, Linux Commands, ServiceNow, GitHub, Active Directory, Click Up, Kanban, Visual Studio Code, Jira  
-</p>
+                  <h1 style="font-weight: bold">Kayla Olivas</h1>
+                  <p>Upcoming Software Engineer @ Best Buy</p>
+                  <p>
+                    St. Paul, MN and Phoenix, AZ | P: +1 602-708-9625 |
+                    azkaykos@gmail.com
+                  </p>
+                  <a
+                    href="https://www.linkedin.com/in/kayla-olivas-9186022a6/"
+                    target="_blank"
+                    >Connect with me on LinkedIn!</a
+                  >
+                </div>
+
+                <div class="cell large-12 small-12">
+                  <hr class="section-divider" />
+                </div>
+                <div class="edu-section">
+                  <h1>Education</h1>
+                  <a href="https://www.stkate.edu/" target="_blank"
+                    >Saint Catherine University</a
+                  >
+                  <p>Bachelor of Arts in Computer Science - December 2025</p>
+                </div>
+                <div class="cell large-12 small-12">
+                  <hr class="section-divider" />
+                </div>
+                <div class="work-section">
+                  <h1>Work Experience</h1>
+                  <p style="font-weight: bolder">Software Engineer Intern</p>
+                  <p><i>Best Buy</i></p>
+                  <p>June 2025 - Present</p>
+                  <ul>
+                    <li>
+                      Developed a responsive frontend with TypeScript and React,
+                      and a backend with Express (JavaScript) that called
+                      multiple AWS-hosted API endpoints to retrieve and
+                      consolidate large-scale pricing data onto a dynamic table.
+                    </li>
+                    <li>
+                      Tested and validated API endpoints using Postman,
+                      Insomnia, and Swagger UI to ensure accurate, secure, and
+                      efficient data transfers.
+                    </li>
+                    <li>
+                      Used GitHub for version control, code reviews, build
+                      workflows, and pull requests to maintain high code quality
+                      and traceability.
+                    </li>
+                    <li>
+                      Deployed and tested features in lower environments,
+                      verifying functionality and performance before releasing
+                      to production.
+                    </li>
+                    <li>
+                      Authored and executed a detailed testing plan, ensuring
+                      the system could handle large volumes of data accurately
+                      and reliably in production.
+                    </li>
+                  </ul>
+                  <p style="font-weight: bolder">Software Engineer Intern</p>
+                  <p><i>Girls Dream Code</i></p>
+                  <p>June 2025 - Present</p>
+                  <ul>
+                    <li>
+                      Developed and launched a secure mobile app for the Girls
+                      Dream Code community, now live on the Apple App Store.
+                    </li>
+                    <li>
+                      Created the frontend in Draftbit with custom
+                      JavaScript/React Native code; integrated a Xano backend
+                      via APIs.
+                    </li>
+                    <li>
+                      Used SendGrid to implement user authentication and
+                      safeguard access for verified community members.
+                    </li>
+                    <li>
+                      Worked in an Agile environment, ensuring timely,
+                      high-quality releases based on user feedback.
+                    </li>
+                  </ul>
+
+                  <p style="font-weight: bold">IT Helpdesk</p>
+                  <p><i>St. Catherine University</i></p>
+                  <p>June 2025 - Present</p>
+                  <ul>
+                    <li>
+                      Conduct audits and manage inventory for 400+ assets, using
+                      Excel for precise data entry, tracking, and analysis.
+                    </li>
+                    <li>
+                      Document processes and analyze technical data in MS Office
+                      and Excel to enhance service delivery and efficiency.
+                    </li>
+                    <li>
+                      Troubleshoot and resolve client hardware and software
+                      issues through Windows 10/11 and ServiceNow.
+                    </li>
+                    <li>
+                      Maintain and update a 1,000+ article knowledge base,
+                      applying technical documentation skills to ensure
+                      accuracy.
+                    </li>
+                  </ul>
+
+                  <p style="font-weight: bold">Web Development Intern</p>
+                  <p><i>St. Catherine University</i></p>
+                  <p>June 2025 - Present</p>
+                  <ul>
+                    <li>
+                      Updated and maintained the university's homepage using
+                      Drupal, ensuring content was current and accessible.
+                    </li>
+                    <li>
+                      Designed and developed customizable cards for the Ellucian
+                      Experience, enhancing the user interface of the new
+                      student and faculty portal now live on the university
+                      website using HTML, CSS, and JavaScript.
+                    </li>
+                    <li>
+                      Demoed the test product to students, faculty, and staff,
+                      gathering feedback and ensuring alignment with user needs
+                      and expectations.
+                    </li>
+                    <li>
+                      Tested the product, identifying and troubleshooting issues
+                      to ensure a smooth user experience before the official
+                      launch.
+                    </li>
+                  </ul>
+                </div>
+                <div class="cell large-12 small-12">
+                  <hr class="section-divider" />
+                </div>
+                <div class="skills-section">
+                  <p>
+                    <strong>Technical Skills/Tools</strong>: Coding Languages:
+                    Python, Java, HTML/CSS, JavaScript, React Native, C, SQL,
+                    Typescript, React. Tools: Xano, Ionic Framework, MS Office,
+                    Figma, Linux Commands, ServiceNow, GitHub, Active Directory,
+                    Click Up, Kanban, Visual Studio Code, Jira
+                  </p>
+                </div>
               </div>
             </div>
-              </div>  
-        
+          </div>
+        </div>
       </div>
     </div>
 
